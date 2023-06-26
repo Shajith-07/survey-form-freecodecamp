@@ -1,3 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
 <h1 id="title">freeCodeCamp Survey Form</h1>
 <p id="description">Thank you for taking the time to help us improve the platform</p>
 <form id="survey-form">
@@ -13,4 +22,25 @@
     <option value="student">Student</option>
     <option value="work">Work</option>
   </select>
-</form>
+  <p>Would you recommend freeCodeCamp to your friend?</p>
+  <label for="definitely">Definitely</label>
+  <input type="radio"id="definitely" name="interest">
+  <label for="maybe">Maybe</label>
+  <input type="radio"id="maybe"name="interest">
+  <label for="notsure">Not sure</label>
+  <input type="radio" id="notsure"name="interest">
+  <div>
+    <p>What would you like to see improved</p>
+  <label for="frontEnd">Front-end Project</label>
+<input type="checkbox"id="frontEnd" value="Front-end Project">
+ <label for="backEnd">Back-end Project</label>
+<input type="checkbox"id="backEnd" value="Back-end Project">
+ <label for="dataVisualization">Data visualization</label>
+<input type="checkbox"id="dataVisualization" value="Data visualization">
+</div>
+<p>Any comments or suggestion?</p>
+<input type="textarea">
+<button id ="submit" type="submit">Submit</button>
+</form>  
+</body>
+</html>
