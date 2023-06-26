@@ -1,7 +1,16 @@
 <h1 id="title">freeCodeCamp Survey Form</h1>
 <p id="description">Thank you for taking the time to help us improve the platform</p>
 <form id="survey-form">
-  <input id="name" type="text">
-  <input id="email" type="email">
-  <input id="number" type="number">
+  <label id="name-label">Name</label>
+  <input id="name" type="text" placeholder="name">
+  <label id="email-label">Email</label>
+  <input id="email" type="email" placeholder="email">
+  <label id="number-label">Age</label>
+  <input min="5" max="120" id="number" type="number" placeholder="age">
+  <p>Which option best describes your current role?</p>
+  <select id="dropdown" required>
+    <option disabled>Select current role</option>
+    <option value="student">Student</option>
+    <option value="work">Work</option>
+  </select>
 </form>
